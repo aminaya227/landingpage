@@ -1,0 +1,122 @@
+/* Cross Browser Compatability CSS */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+
+body{
+	
+	background: url (http://static.pexels.com/wp-content/uploads/2014/09/city-skyline-skyscrapers-2773-825x550.jpg) repeat center fixed/ cover;
+	
+ }
+
+
+#page{
+ position: relative; 
+  z-index: 1;
+
+
+}
+   
+#boxA{
+position: absolute; 
+  z-index: -1;
+  opacity: .90;
+
+
+  
+
+}
+   
+ #box {
+    background: none repeat scroll 0 0 #FFDAB9;
+    border-bottom-right-radius: 30px;
+    height: 520px;
+    margin: 0;
+    padding: 5px 0 10px 20px;
+    width: 375px;
+    position:relative;
+    top: 40px;
+   
+}
+
+
+ h1 {
+    font-family:'Kaushan Script', cursive; 
+    color:#FF7F50;
+    font-size: 65px;
+    line-height: 0.8;
+    margin: 30px 0 30px 4px;
+}
+h3 {
+    background: none repeat scroll 0 0 #F4A460;
+    border-bottom-left-radius: 5px;
+    color: white;
+    font-size: 19px;
+    font-weight: lighter;
+    letter-spacing: 1.25px;
+    margin: 15px 0;
+    padding: 10px;
+}
+p {
+    color:#FF7F50;
+    line-height: 20px;
+    margin: 0;
+    padding: 10px 20px 0 7px;
+}
+
+.social-media  {
+    float: left;
+    padding-top: 15px;
+}
+.social-media  a {
+    background: url("social.png") no repeat;
+    display: block;
+    margin: auto;
+    padding:0;
+    width: 32px;
+}
+
+   
+   
+.social-media a:hover {
+    background-position: 63px 31px;
+}   
